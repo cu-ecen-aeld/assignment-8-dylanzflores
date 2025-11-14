@@ -1,0 +1,1 @@
+savedcmd_/home/dylan/assignment-8-dylanzflores/misc-modules/faulty.mod := printf '%s\n'   faulty.o | awk '!x[$$0]++ { print("/home/dylan/assignment-8-dylanzflores/misc-modules/"$$0) }' > /home/dylan/assignment-8-dylanzflores/misc-modules/faulty.mod

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LDD
+    bool "LDD Programs"
+    help
+      Build LDD example programs.
