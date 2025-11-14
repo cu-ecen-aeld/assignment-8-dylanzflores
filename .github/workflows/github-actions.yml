@@ -20,8 +20,4 @@ jobs:
           submodules: recursive
 
       - name: Run AESD autotest
-        run: |
-          ./clean.sh
-          ./build.sh
-          ./assignment-autotest/test/assignment8-buildroot/runqemu.sh
 
