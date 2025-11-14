@@ -20,6 +20,7 @@ jobs:
           - name: Run full test
             env:
               GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+            run: 
           - name: Cleanup
             if: always()
             run: |
